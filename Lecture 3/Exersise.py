@@ -1,3 +1,5 @@
+import math
+
 def factorial():
     x = int(input("Enter a number: "))
     result = 1
@@ -7,3 +9,10 @@ def factorial():
     print("Product:", result)
 
 factorial()
+
+
+def factorial_short():
+    x = int(input("Enter a number: "))
+    print("Product:", math.factorial(x))
+
+factorial_short()
